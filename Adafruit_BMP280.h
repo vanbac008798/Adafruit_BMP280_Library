@@ -108,7 +108,7 @@ public:
   void getSensor(sensor_t *);
 
 private:
-  int _sensorID = 0;
+  int _sensorID = 0x00;
   Adafruit_BMP280 *_theBMP280 = NULL;
 };
 
